@@ -99,7 +99,7 @@ class GroqClient:
                 {"role": "user",   "content": user},
             ],
             "temperature": 0.3,
-            "max_tokens":  8000,  # Increased from 4096 to prevent truncation
+            "max_tokens":  8000, 
         }
         if response_format_json:
             body["response_format"] = {"type": "json_object"}
@@ -133,20 +133,18 @@ class GroqClient:
         data = await self._post(body)
         return self._extract_content(data)
 
-    # Keep this for API compatibility with main.py references
+   
     async def chat_image_gen(self, *, prompt: str) -> Dict[str, Any]:
         return {}
 
 
 # ── Backward-compatible alias ─────────────────────────────────────────────────
-# main.py creates:  ai = OpenRouterClient.from_env()
-# We alias it so no other file needs to change.
+
 class OpenRouterClient(GroqClient):
     @staticmethod
-    def from_env() -> "OpenRouterClient":  # type: ignore[override]
+    def from_env() -> "OpenRouterClient": 
         key = os.getenv("GROQ_API_KEY", "").strip()
         if not key:
-            # Fall back to old key name in case user has old .env
             key = os.getenv("OPENROUTER_TEXT_API_KEY", "").strip()
         client = OpenRouterClient(api_key=key)
         return client
