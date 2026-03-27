@@ -1,4 +1,4 @@
-# 🌸 MindBloom
+#  MindBloom
 
 > An AI-powered, accessibility-first learning platform designed to help students — especially those with dyslexia — study more comfortably, effectively, and confidently.
 > **Built for dyslexic learners. Beneficial for everyone.**
@@ -80,6 +80,8 @@ A smart floating chatbot that helps with:
   * Layman explanations
 * Text-to-Speech support for better understanding
 
+![Simplified Text](assets/screenshots/Simplified Text.png)
+
 ---
 
 ### 📅 Smart Study Planner
@@ -89,6 +91,8 @@ A smart floating chatbot that helps with:
 * Pomodoro Timer & Focus Mode
 * Track completion and earn rewards
 
+![Smart Study Planner](assets/screenshots/Smart Schedule Planner.png)
+
 ---
 
 ### 🎮 Gamified Learning
@@ -96,6 +100,8 @@ A smart floating chatbot that helps with:
 * Auto-generate quizzes from study material
 * Improve retention with active recall
 * Earn points and rewards
+
+![Gamified Learning](assets/screenshots/Gamified Learning.png)
 
 ---
 
@@ -105,12 +111,16 @@ A smart floating chatbot that helps with:
 * Breathing exercises and meditation
 * Motivational quotes to stay encouraged
 
+![Break Time](assets/screenshots/Break time.png)
+
 ---
 
 ### 📊 Student Dashboard
 
 * Track study time, streaks, and performance
 * Visual analytics and progress reports
+
+![Dashboard](assets/screenshots/Dashboard.png)
 
 ---
 
@@ -119,6 +129,12 @@ A smart floating chatbot that helps with:
 * Monitor student progress
 * Analyze consistency and performance
 * Track activity and engagement
+
+---
+
+### Demo
+
+![Demo](assets/video/Demo.mp4)
 
 ---
 
