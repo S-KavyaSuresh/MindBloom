@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Background rounded square -->
+  <rect width="64" height="64" rx="14" fill="#3d6b2e"/>
+
+  <!-- Petals arranged around center -->
+  <!-- Top petal -->
+  <ellipse cx="32" cy="18" rx="7" ry="11" fill="#7ec850" opacity="0.95"/>
+  <!-- Top-right petal -->
+  <ellipse cx="46" cy="23" rx="7" ry="11" fill="#7ec850" opacity="0.95" transform="rotate(60 46 23)"/>
+  <!-- Bottom-right petal -->
+  <ellipse cx="46" cy="41" rx="7" ry="11" fill="#7ec850" opacity="0.95" transform="rotate(120 46 41)"/>
+  <!-- Bottom petal -->
+  <ellipse cx="32" cy="47" rx="7" ry="11" fill="#7ec850" opacity="0.95"/>
+  <!-- Bottom-left petal -->
+  <ellipse cx="18" cy="41" rx="7" ry="11" fill="#7ec850" opacity="0.95" transform="rotate(60 18 41)"/>
+  <!-- Top-left petal -->
+  <ellipse cx="18" cy="23" rx="7" ry="11" fill="#7ec850" opacity="0.95" transform="rotate(120 18 23)"/>
+
+  <!-- Center circle (white) -->
+  <circle cx="32" cy="32" r="12" fill="#ffffff"/>
+
+  <!-- Brain-like M shape in center -->
+  <text x="32" y="38" font-size="14" font-family="Arial" font-weight="900" fill="#3d6b2e" text-anchor="middle">M</text>
+</svg>
