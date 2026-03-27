@@ -80,7 +80,7 @@ A smart floating chatbot that helps with:
   * Layman explanations
 * Text-to-Speech support for better understanding
 
-![Simplified Text](assets/screenshots/Simplified Text.png)
+![Simplified Text](assets/screenshots/Simplify Text.png)
 
 ---
 
