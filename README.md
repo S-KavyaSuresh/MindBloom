@@ -80,7 +80,7 @@ A smart floating chatbot that helps with:
   * Layman explanations
 * Text-to-Speech support for better understanding
 
-![Simplified Text](assets/screenshots/Simplify Text.png)
+![Simplify Text](assets/screenshots/Simplify Text.png)
 
 ---
 
@@ -91,7 +91,7 @@ A smart floating chatbot that helps with:
 * Pomodoro Timer & Focus Mode
 * Track completion and earn rewards
 
-![Smart Study Planner](assets/screenshots/Smart Schedule Planner.png)
+![Smart Schedule Planner](assets/screenshots/Smart Schedule Planner.png)
 
 ---
 
@@ -111,7 +111,7 @@ A smart floating chatbot that helps with:
 * Breathing exercises and meditation
 * Motivational quotes to stay encouraged
 
-![Break Time](assets/screenshots/Break time.png)
+![Break time](assets/screenshots/Break time.png)
 
 ---
 
