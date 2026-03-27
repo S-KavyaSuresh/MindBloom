@@ -143,9 +143,9 @@ MindBloom/
 │   ├── public/
 │   │   └── favicon.svg
 │   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── lib/
+│   │   ├── components/     # Reusable UI components
+│   │   ├── pages/          # App pages
+│   │   ├── lib/            # Utilities & API helpers
 │   │   ├── App.jsx
 │   │   ├── main.jsx
 │   │   └── styles.css
@@ -156,10 +156,10 @@ MindBloom/
 │
 ├── backend/                # FastAPI backend
 │   ├── app/
-│   │   ├── main.py
+│   │   ├── main.py         # API routes & app entry point
 │   │   └── services/
-│   │       ├── ai.py
-│   │       └── extract.py
+│   │       ├── ai.py       # AI integration (Groq)
+│   │       └── extract.py  # Document extraction
 │   ├── requirements.txt
 │   └── .env.example
 │
